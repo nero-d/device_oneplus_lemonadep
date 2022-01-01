@@ -24,6 +24,9 @@ $(call inherit-product, device/oneplus/lemonadep/device.mk)
 # Inherit some common Xtended stuff.
 $(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 
+# Inherit Google Camera
+$(call inherit-product, vendor/oneplus/apps/lemonadep/config.mk)
+
 PRODUCT_NAME := xtended_lemonadep
 PRODUCT_DEVICE := lemonadep
 PRODUCT_MANUFACTURER := OnePlus
