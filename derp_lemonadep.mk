@@ -27,6 +27,9 @@ $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 # Official-ify
 DERP_BUILDTYPE := Official
 
+# Boot Animation
+USE_LEGACY_BOOTANIMATION := true
+
 PRODUCT_NAME := derp_lemonadep
 PRODUCT_DEVICE := lemonadep
 PRODUCT_MANUFACTURER := OnePlus
