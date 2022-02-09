@@ -24,9 +24,6 @@ $(call inherit-product, device/oneplus/lemonadep/device.mk)
 # Inherit some common DerpFest stuff.
 $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
-# Inherit Google Camera
-$(call inherit-product, vendor/oneplus/apps/lemonadep/config.mk)
-
 # Official-ify
 DERP_BUILDTYPE := Official
 
